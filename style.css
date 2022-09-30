@@ -458,7 +458,7 @@ font-family: 'Just Another Hand', cursive;
     outline-style: 2px solid black;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 807px){
     #logo{
         display: block;
         padding-left: 20px ;
@@ -762,5 +762,62 @@ font-family: 'Just Another Hand', cursive;
     .formu{
         display: none;
     }
+    .menu{
+        /* display: block; */
+        position: absolute;
+        cursor: pointer;
+    }
+    .menu-list li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #a1db7a;
+        font-family: "poppins", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+    .menu-list li a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        color: #33CCCC;
+        font-family: "poppins", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+    .form{
+        display: block;
+        width: 70% !important;
+    }
+
 
 }
+@media screen and (max-width: 460px){
+    .elly img{
+        border: double;
+        /* width */
+    }
+    .sub{
+        height: 60vh;
+    }
+    .overlay2{
+        height: 60vh;
+
+        /* padding-bottom: 40px; */
+    }
+    .contact{
+        
+    }
+    .addy{
+        padding: 2rem !important;
+    }
+    .addy-1 .addy-2{
+        width: 50 !important%;
+    }
+    .addy h6{
+        width: 100%;
+    }
+    .form{
+        display: block;
+        width: 85% !important;
+    }
+
+}
+    
+

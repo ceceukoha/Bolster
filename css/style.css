@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    background-image: url(/images/pexels-tom-fisk-5412975\ 1.png);
+    height: 100vh;
+    background-size: auto;
+    background-position: top;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    /* padding-left: 700px; */
+    padding-right: 100px;
+    gap: 40px;
+    font-family: sans-serif;
+
+}
+.nav-list li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 40px;
+    padding-top: 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    gap: 40px;
+    color: white;
+    font-size: 20px;
+}
+#login{
+    border: 1px solid green;
+    background-color: green;
+}
+.about{
+    display: grid;
+    height: 100vw;
+    grid-template-columns: repeat(2,1fr);
+}
