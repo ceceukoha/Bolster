@@ -3,19 +3,17 @@ const exitOne = document.querySelector('#close-menu');
 const mainMenu = document.querySelector('.menu');
 
 
-function openMenu(){
-mainMenu.style.width = "100px";
-mainMenu.style.display = "block";
-mainMenu.style.width = "100px";
-}
-function openMenu(){
-    mainMenu.style.width = "100px";
-    mainMenu.style.display = "block";
-    mainMenu.style.width = "100px";
-    }
-
+menuOne.addEventListener("click",(e)=>{
+    // mainMenu.style.display = 'block';
+    // mainMenu.classList.remove('animate__animated', 'animate__slideOutLeft')
+    mainMenu.classList.add('animate__animated', 'animate__slideInLeft')
+})
+exitOne.addEventListener("click",(e)=>{
+    // mainMenu.style.display = 'none';
+    // mainMenu.classList.remove('animate__animated', 'animate__slideIntLeft')
+    mainMenu.classList.add('animate__animated', 'animate__slideOutLeft')
     
-
+})
 
 
 
