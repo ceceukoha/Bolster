@@ -1,52 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <section class="one">
-        <nav class="nav-items">
-            <div class="logo">
-                <img src="images/logo.png" alt="" style="height: 100px; width: 100px;">
-                <h1>BOLSTER</h1>
-            </div>
-            <div>
-                <ul class="nav-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li id="login"><a href="#">Login</a></li>
-                </ul>
-            </div>
-        </nav>
-        <h1>
-            BOLSTER <br>
-            RECYCLING WASTE <br>
-            ACROSS THE GLOBE
-        </h1>
-        <section class="search">
-            <div class="input">
-                <input type="text" form-check>
-            </div>
-            <button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="fonts/css/all.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="Just_Another_Hand,Poppins/Just_Another_Hand/JustAnotherHand-Regular.ttf"
+    />
+    <link
+      rel="stylesheet"
+      href="Just_Another_Hand,Poppins/Poppins/Poppins-SemiBold.ttf"
+    />
+    <link rel="stylesheet" href="Just_Another_Hand,Poppins.zip" />
+    <link
+      rel="stylesheet"
+      href="Just_Another_Hand,Poppins/Just_Another_Hand/LICENSE.txt"
+    />
+  </head>
+  <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+  <link rel="stylesheet" href="animate.css">
+  <body>
 
-            </button>
+    <section class="menu">
+        <i class="fas fa-window-close p-3 ps-5" style="font-size: 30px; color: #33CCCC; cursor: pointer;" id="close-menu"></i>
+        <ul class="menu-list list-unstyled ">
+            <li><a href="#" style="color: #33CCCC; text-decoration: underline; text-underline-offset: 8px;">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="d-flex gap-4 p-4 align-items-center">
+            <b style="justify-content: right; margin-left: auto; color: #a1db7a;" class="d-flex text-end">24 UBA street University <br> of Nigeria Nsukka</b>
+            <i class="fas fa-envelope " style=""></i>
+        </div>
+        
+    </section>
+    <section class="home-img justify-content-between">
+      <section class="overlay">
+        <nav class="d-flex justify-content-between text-white">
+          <div class="bolster-home d-flex gap-4">
+            <a class="fas fa-bars text-decoration-none text-white pointer-event " id="menu-bar" style=""></a>
+            <div class="menu-bol d-flex">
+                <img src="images/Bolster Logo.png" alt="" style="width: 50px;" id="logo">
+                <h3 class="mob-menu">Bolster</h3>
+            </div>
+            <h1 class="bol-text">Bolstrer</h1>
+          </div>
+          <div>
+            <button class="btn btn-light">Login</button>
+          </div>
+        </nav>
+        <section class="text-home" style="width: 100%;">
+          <div class="wel mx-5">
+            <h1 class="welcome">
+              Welcome to <br />
+              <span>Bolster</span>
+            </h1>
+            <p class="globe">Recycling waste across the globe</p>
+            <button class="register">Register</button>
+          </div>
+          <div class="socials">
+            <img src="images/Vector (2).png" alt="">
+            <img src="images/Vector-2 (2).png" alt="">
+            <img src="images/Vector-1 (2).png" alt="">
+          </div>
         </section>
+        
+
+        <h2
+          style="
+            text-align: center;
+            color: #b5e098;
+            font-size: 20px;
+            font-family: 'poppins', cursive;
+          "
+        >
+          Scroll down
+        </h2>
+        <img
+          src="images/Vector.png"
+          alt=""
+          style="
+            text-align: center;
+            color: #b5e098;
+            justify-content: center;
+            margin-top: 19px;
+          "
+          class="leaf"
+        />
+      </section>
     </section>
     <section class="about">
-        <div class="grid1">
-            <h2>ABOUT BOLSTER</h2>
+      <div class="about-row row">
+        <div class="col-md-6 left">
+          <h1>
+            <span
+              style="
+                text-underline-offset: 20px;
+                text-decoration: underline;
+                letter-spacing: -0.05em;
+              "
+              >About </span
+            >Bolster
+          </h1>
+          <p>
+            An online platform that connects plastic users to the nearest
+            plastic recyclers and fosters the smooth exchange of waste for
+            reuse.
+          </p>
+          <button>Read more</button>
         </div>
-        <div class="grid2">
-            <img src="images/bins.jpg" alt="">
+        <div class="elly col-md-6 ">
+          <img src="images/elly-filho-prFmxl4FPP4-unsplash.jpg" alt="" />
         </div>
+      </div>
     </section>
-    <section class="footer">
-        <h1>bolsterdd dd</h1>
+    <!-- <section class="scat">
+      <img src="images/Vector-5.png" alt="" id="onee">
+      <img src="images/Group.png" alt="" id="twoo">
+      <img src="images/Group 28.png" alt="" id="three">
+      <img src="images/Vector.png" alt=""id="four">
+      <img src="images/Arrow1.png" alt=""id="six">
+      <img src="images/Arrow4.png" alt=""id="sev">
+      <img src="images/Arrow3.png" alt=""id="eig">
+      <img src="images/Arrow4.png" alt=""id="nin">
+      
+      <img src="images/" alt="">
+      <img src="images/" alt="">
+      <img src="images/" alt="">
+    </section> -->
+
+    <section class="works box-shadow-wrk container-fluid">
+      <!-- <img src="images/Arrow1.png" alt="" id="arr-1"> -->
+      <!-- <img src="images/Arrow4.png" alt="" id="arr-2"> -->
+      <h1
+        class=""
+        style="text-align: center; font-family: 'Just Another Hand', cursive"
+      >
+        <span style="text-decoration: underline; text-underline-offset: 10px;" class="work-span">How I</span>t Works
+      </h1>
+      <section class="firstt card-1 box-shadow-wrk animate__animated animate__fadeInDown animate__delay-1s">
+        <div class="border-work px-3 animate__animated animate__swing">
+          <img src="images/user.gif" alt="" class="gifs" />
+          <h2 style="font-size: 20px; font-weight: 700">
+            Own a Bolster Account
+          </h2>
+          <h5 style="font-size: 15px" class="mx-3">
+            Register as a recycler or <br />
+            consumer
+          </h5>
+        </div>
+      </section>
+
+      <section class="card-2 box-shadow-wrk animate__animated animate__fadeInDown animate__delay-2s">
+        <div class="border-work px-3">
+          <img src="images/complete.gif" alt="" class="gifs" />
+          <h2 style="font-size: 20px; font-weight: 700">
+            Place Request
+          </h2>
+          <h5 style="font-size: 15px">
+            Start the recycling process and place a request
+          </h5>
+        </div>
+      </section>
+      <section class="card-3 box-shadow-wrk animate__animated animate__fadeInDown animate__delay-3s">
+        <div class="border-work pe-3" id="card33">
+          <img src="images/photo-camera.gif" alt="" class="gifs" />
+          <h2 style="font-size: 20px; font-weight: 700">
+            Take a Live Photo
+          </h2>
+          <h5 style="font-size: 15px">
+            Take a live picture of the wastes
+          </h5>
+        </div>
+      </section>
+      <section class="card-2 box-shadow-wrk animate__animated animate__fadeInDown animate__delay-4s">
+        <div class="border-work px-3">
+          <img src="images/gps.gif" alt="" class="gifs" />
+          <h2 style="font-size: 20px; font-weight: 700">
+            Pick Up
+          </h2>
+          <h5 style="font-size: 15px">
+            Have your waste picked up by the nearest recycler
+          </h5>
+        </div>
+      </section>
+      <section class="card-1 box-shadow-wrk animate__delay-5s animate__animated animate__fadeInDown">
+        <div class="border-work px-3 pe-4">
+          <img src="images/growing.gif" alt="" class="gifs" />
+          <h2 style="font-size: 20px; font-weight: 700">
+            Get Paid
+          </h2>
+          <h5 style="font-size: 15px">
+            Get paid for your waste and<br />
+            receive badges for your actions
+          </h5>
+        </div>
+      </section>
     </section>
-</body>
+    <section class="choose container-fluid">
+      <h1>
+        <span style="text-decoration: underline; text-underline-offset: 16px"
+          >Why C</span
+        >hoose Bolster
+      </h1>
+      <div class="choose-row row">
+        <div class="choose-left col-md-7">
+          <ul class="lists">
+            <li class="choose-left1 d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="images/f6tmt695tvdit21ie9av43efqr.png.download"
+                  alt=""
+                />
+                <b>Dispose waste from the comfort of your home</b>
+              </div>
+            </li>
+            <li class="choose-left1 d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="images/f6tmt695tvdit21ie9av43efqr.png.download"
+                  alt=""
+                />
+                <b>Swift response from recyclers</b>
+              </div>
+            </li>
+            <li class="choose-left1 d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="images/f6tmt695tvdit21ie9av43efqr.png.download"
+                  alt=""
+                />
+                <b>Get paid for recycling</b>
+              </div>
+            </li>
+            <li class="choose-left1 d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="images/f6tmt695tvdit21ie9av43efqr.png.download"
+                  alt=""
+                />
+                <b
+                  >Receive badges for reducing plastic pollution in your
+                  environment</b
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-5 choose-right">
+          <img
+            src="images/young-woman-recycling-better-environment.jpg.download"
+            alt=""
+            style="
+              position: relative;
+              z-index: 1;
+              right: 1%;
+              top: 20px;
+              border: 2px dashed black;
+            "
+            id="one"
+          />
+          <img
+            src="images/Rectangle 33.png"
+            alt=""
+            style="position: absolute; z-index: 3; left: 60%" id="two"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="sub">
+      <div class="overlay2">
+        <h1><span class="">Subscr</span>ibe to our <br> <span id="span-22">Newsl</span>etter</h1>
+        <p>
+            Subscribe to our Newsletter and stay updated on our green environment
+        </p>
+        <div class="input-btn d-flex justify-content-center gap-2">
+            <input type="email" name="" id=""  class="w-50 px-3" placeholder="Enter a valid email address"/>
+            <button type="submit " class="btn-inp btn btn-success px-3 py-2" style="border-radius: 4px;">Submit</button>
+        </div>
+        
+      </div>
+    </section>
+    <section>
+      <div class="contact"><h1>Contact us</h1>
+
+      </div>
+        <div class="formu">
+            <h1>We'd love to hear from you</h1>
+            <ul class="form-list list-unstyled">
+                <li>Name</li>
+                <li>Email</li>
+                <li>Subject</li>
+                <li>Message</li>
+                <button class="btn btn-outline-dark "> Send</button>
+            </ul>
+        </div>
+      <section class="footer">
+        <div class="addy row gap-4 p-5">
+          <div class="addy-1 col-md-6  col-lg-6 w-25">
+            <h6>Our Address</h6>
+            <span>24 UBA street University <br> of Nigeria Nsukka</span>
+          </div>
+          <div class="addy-2 col-md-6 col-lg-6 w-25">
+            <h6>Our Contacts</h6>
+            <span>bolster@gmail.com <br style="width: 100%;"> +2347612359986</span>
+          </div>
+        </div>
+        <div class="form w-100">
+            <h1>We'd love to hear from you</h1>
+            <ul class="form-list list-unstyled">
+                <li>Name</li>
+                <li>Email</li>
+                <li>Subject</li>
+                <li>Message</li>
+                <button class="btn btn-outline-dark "> Send</button>
+            </ul>
+        </div>
+        <div class="ab-us row gap-4 p-5">
+            <div class="col-md-6 w-25">
+              <h6>About us</h6>
+              <ul class="list-unstyled" style="color: gray; font-size: 13px;">
+                <li><a href="#" class="text-decoration-none " style="color: gray; font-size: 13px;">How it works</a></li>
+                <li><a href="#" class="text-decoration-none " style="color: gray; font-size: 13px;">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 w-25">
+              <h6>Information</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none" style="color: gray; font-size: 13px;">FAQs</a></li>
+                <li><a href="#" class="text-decoration-none" style="color: gray; font-size: 13px;">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="addy-us row gap-4 p-5">
+            <div class="addy-1 col-md-6 w-25">
+              <h6>About us</h6>
+              <ul class="list-unstyled" style="color: gray; font-size: 13px;">
+                <li><a href="#" class="text-decoration-none " style="color: gray; font-size: 13px;">How it works</a></li>
+                <li><a href="#" class="text-decoration-none " style="color: gray; font-size: 13px;">Blog</a></li>
+              </ul>
+            </div>
+            <div class="abb-us addy-2 col-md-6 w-25">
+              <h6>Information</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none" style="color: gray; font-size: 13px;">FAQs</a></li>
+                <li><a href="#" class="text-decoration-none" style="color: gray; font-size: 13px;">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <h5 style="text-align: center; color: gray; font-size: 13px;">&copy; 2022 - Bolster / All rights Reserved</h5> 
+    </section>
+
+<script src="script.js"></script>
+  </body>
 </html>
