@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "fonts",
+			"path": "..\\..\\Downloads\\assets (17)\\fonts"
+		},
+		{
+			"name": "bolsterhome",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bolsterhome"
+	}
+}

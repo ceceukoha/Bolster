@@ -1,0 +1,714 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    /* background-color: white; */
+    position: absolute;
+/* align-items: center; */
+width: 100%;
+/* height: 140vh; */
+    
+}
+.menu-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
+/* height: 100vh; */
+    gap: 50px;
+}
+.menu-list li {
+text-decoration: none;
+align-items: center;
+}
+.menu-list li a{
+text-decoration: none;
+font-size: 40px;
+color: #a1db7a;
+font-family: "poppins", Arial, Helvetica, sans-serif;
+font-weight: 400;
+
+}
+.home-img{
+    background-image: url(images/top-view-plastic-carton-waste\ \(1\).jpg);
+    background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+#menu-bar{
+    display: block;
+}
+#logo{
+    display: none;
+}
+.bol-text{
+    display: none;
+}
+.overlay{
+    background-color: rgba(49, 47, 47, 0.644);
+    /* height: 100vh; */
+    padding: 1%;
+}
+nav{
+    padding: 0 30px 0 30px;
+    align-items: center;
+}
+nav button{
+    padding: 2px 10px;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.welcome{
+    font-family: 'Just Another Hand', cursive;
+    margin-top: 190px;
+    font-size: 70px;
+    color: white;
+    /* letter-spacing: 0.1%; */
+    line-height: 60px;
+}
+.welcome span{
+    color: #B5E098;
+}
+.bolster-home{
+    font-size: 30px;
+    font-weight: 700;
+    /* display: flex; */
+    align-items: center;
+}
+.bolster-home h1{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.globe{
+    color: white;
+    margin-top: 30px;
+}
+.register{
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 2px 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
+}
+.text-home{
+    /* justify-content: space-between; */
+    /* margin-left: 40px; */
+    /* width: 100%; */
+}
+.socials{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    position: relative;
+    bottom: 0px;
+    /* padding-top: auto; */
+    margin-left: auto;
+    margin-top: auto ;
+    margin-bottom: auto;
+    /* justify-content: center; */
+}
+.socials img{
+    width: 30px;
+    /* height: 100px; */
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+}
+.about{
+    /* height: 90vh; */
+    padding-bottom: 30px;
+    width: 100%;
+}
+.leaf{
+    display: block;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    width: 100%;
+}
+.left{
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.left h1{
+    font-family: 'Just Another Hand', cursive;
+
+}
+.left p{
+    margin-top: 40px;
+    width: 50%;
+}
+.left button{
+    background-color: white;
+    /* background-color: transparent; */
+    border: 2px solid #35312B;
+    padding: 4px 20px;
+    color: #35312B;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
+}
+.elly{
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* margin: auto; */
+
+    /* padding: 30px; */
+}
+.elly img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* align-items: center; */
+    /* margin-bo: auto; */
+    height: 400px;
+    width: 400px;
+    border: 1px dashed gray;
+}
+.box-shadow-wrk{
+    /* box-shadow: rgba(0,0,0,0.3) 0px 19px 38px rgba(0,0,0,0.22) 0px 15px 12px; */
+    
+}
+.work{
+    background-image: url(images/Group-1.png), url(images/Group\ 100.png), url(images/Arrow4.png);
+    background-image: url(images/Group-2.png);
+    background-image: url(images/Group-1.png);
+    background-image: url(images/Group-1.png);
+    background-position: right bottom, left top, center top;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.gifs{
+    height: 85px;
+    width: 85px;
+}
+.border-work{
+    /* border: 1px solid blue; */
+    /* width: 200px; */
+    /* margin-left: 20px; */
+
+    /* box-shadow: rgba(0,0,0,0.3) 0px 19px 38px rgba(0, 0, 0, 0.452) 0px 15px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
+
+    text-align: left;
+    /* padding-left: 20px; */
+}
+.border-work h2{
+    margin-left: 15px;
+
+}
+.border-work h5{
+    margin-left: 15px;
+    width: 100%;
+}
+.firstt{
+    margin-top: 50px;
+    display: block;
+
+}
+/* .animate__animated.animate__slideInDown{
+    --animate-duration: 0.5s;
+} */
+:root{
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+.card-1{
+    display: flex;
+    /* justify-content: center;
+    padding: 20px; */
+    /* margin-right: auto; */
+    /* justify-content: flex-end; */
+    width: 250px;
+    height: 200px;
+    /* padding: 50px; */
+}
+.card-2{
+    display: flex;
+    margin-left: auto;
+    /* justify-content: flex-end; */
+    width: 250px;
+    height: 200px;
+}
+.card-3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: flex-end; */
+    width: 250px;
+    height: 200px;
+}
+.works{
+    background-image: url(images/Separate\ waste\ collection\ of\ paper\ plastic\ and\ organic\ waste.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    padding: 0 100px 80px 100px;
+}
+#arr-1{
+    width: 800px;
+    position: absolute;
+    top: 147%;
+    left: 20%;
+}
+#arr-2{
+    width: 800px;
+    position: absolute;
+    top: 300%;
+    left: 20%;
+}
+.choose{
+    background-color: #60eeee1a;
+    /* height: 70vh; */
+    width: 100%;
+}
+.choose h1{
+    font-family: 'Just Another Hand', cursive;
+    padding-top: 40px;
+    
+}
+.choose b{
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+.choose-left{
+    margin-top: 30px;
+    /* gap: 90px; */
+}
+.choose-left1{
+    align-items: center;
+    padding: 20px;
+    padding-top: 30px;
+    /* gap: 20px; */
+}
+.choose-left1 img{
+    width: 20px;
+    height: 20px;
+    /* padding-left: 30px; */
+
+}
+.choose-left1 b{
+    margin-left: 20px;
+}
+.choose-right img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub{
+    background-image: url(images/top-view-colorful-reusable-cups.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.contact{
+    background-image: url(images/Mapsicle\ Map.png);
+    height: 60vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.overlay2{
+    background-color: rgba(49, 47, 47, 0.062);
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+.overlay2 span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.overlay2 h1{
+    padding-top: 20px;
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+}
+.overlay2 p{
+    color: white;
+    margin-top: 30px;
+}
+.btn-inp button{
+    width: 25% !important;
+}
+.overlay2 input{
+    border-radius: 5px;
+    border: none;
+}
+.footer{
+margin: 0;
+padding: 0;
+}
+.footer span{
+    font-size: 13px;
+    width: 50%;
+    color: gray; 
+}
+.choose-row{
+    display: flex;
+    flex-direction: row;
+}
+.formu{
+    width: 40%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
+    margin: 20px;
+    position: relative;
+    bottom: 300px;
+    right: 0;
+    margin-left: auto;
+    z-index: 99999999;
+    background-color: white;
+    margin-bottom: 0;
+
+}
+.form{
+    display: none;
+}
+.form h1{
+    font-size: 20px;
+    font-weight: 700;
+font-family: 'Just Another Hand', cursive;
+
+}
+.form-list{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+.form-list li{
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+.form-list button{
+    margin-top: 17px;
+    padding: 1% 6%;
+    font-size: 14px;
+    outline-style: 2px solid black;
+}
+
+@media screen and (max-width: 767px){
+    #logo{
+        display: block;
+        padding-left: 20px ;
+
+    }
+    #menu-bar{
+        display: none;
+    }
+    nav{
+        padding: 20px;
+    }
+    .bolster-home{
+        gap: 2px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .overlay h2{
+        margin-top: 80px;
+    }
+    .menu-bol{
+        gap: 10px;
+    }
+    .bol-text{
+        display: none;
+    }
+    .overlay{
+        /* height: 100vh; */
+    }
+    .home-img{
+        background-position: top;
+        /* height: 0vh; */
+        background-size: cover;
+    }
+    .wel{
+        width: 100%;
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .wel h1{
+        font-size: 30px;
+    }
+    .wel br{
+        /* display: none; */
+    }
+    .welcome{
+        font-size: 50px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .globe{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .welcome span{
+        /* display: none; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .socials{
+        display: none;
+    }
+    .register{
+        display: flex;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .wel-span{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .mx-5{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .text-home{
+        display: none;
+        justify-content: normal;
+        display: flex;
+        width: 100%;
+        justify-content: normal;
+        /* white-space: break-spaces; */
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .justify-content-between{
+        justify-content: normal;
+
+        /* display: none; */
+    }
+    .about{
+        /* padding-bottom: 40px; */
+        /* height: 80vh; */
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .about-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .elly img{
+        margin-right: auto;
+        padding-top: 30px;
+        /* border:1px dashed black; */
+        width: 200px;
+        height: 200px;
+    }
+    .left p{
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .works h1{
+        width: 100%;
+        font-size: 30px;
+        padding: 0;
+    }
+    .gifs{
+        height: 70px;
+        width: 70px;
+    }
+    .card-1{
+        width: 250px;
+        height: 200px;
+    }
+    .firstt{
+        margin-top: 10px;
+    }
+    .border-work h2{
+        font-size: 10px;
+        margin: 0;
+        font-weight: 100;
+        width: 100%;
+    }
+    .works{
+        padding-top: 90px !important;
+        width: 100%;
+        padding: 35px;
+    }
+    .border-work{
+        margin-top: 40px;
+    }
+    #card33{
+        padding-left: 6px;
+    }
+    .choose{
+        width: 100%;
+        
+    }
+    .choose-row{
+        /* display: flex; */
+        /* flex-direction: column-reverse; */
+    }
+    #one{
+        width: 200px;
+        height: 200px;
+        z-index: -1;
+        top: 10px;
+        display: flex;
+        display: none;
+        justify-content: center;
+    
+    }
+    #two{
+        /* position: absolute;
+        left: 50%; */
+        display: none;
+    }
+    .choose h1{
+        font-size: 20px;
+        /* letter-spacing: -5.6em; */
+    }
+    .choose-left{
+        margin-top: 1px;
+    }
+    .choose-left1{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .lists{
+        padding: 5px;
+    }
+    .choose-left1 div b{
+        font-size: 14px;
+    }
+    .sub{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .overlay2{
+        padding: 40px;
+    }
+    .overlay2 h1{
+        font-size: 30px;
+        text-decoration: none;
+        text-align: left;
+    
+    }
+    .overlay2 h1 span{
+        text-decoration: none;
+    
+    }
+    .overlay2 p{
+        color: white;
+        margin-top: 20px;
+        font-size: 12px;
+        text-align: left;
+    
+    }
+    .overlay2 input{
+        width: 100% !important;
+        padding: 7px;
+        font-size: 13px;
+        border-radius: 3px;
+        border: none;
+    }
+    .overlay2 button{
+        width: 100% !important;
+        padding: 7px;
+        border-radius: 3px;
+        /* border-radius: 5px; */
+        border: none;
+        font-size: 13px;
+    
+    }
+    .input-btn{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    #span-22{
+        text-decoration: underline;
+        text-underline-offset: 14px;
+    }
+    .contact{
+        height: 20vh;
+    }
+    .contact h1{
+        /* display: block; */
+        /* justify-content: last baseline; */
+        /* text-align: initial; */
+        position: absolute;
+        bottom: auto;
+        /* left: 0; */
+        font-size: 20px;
+        font-family: 'Just Another Hand', cursive;
+    
+    }
+    .footer{
+        width: 100%;
+        padding: 1rem important;
+        padding-left: 0;
+    }
+    .addy{
+        width: 100% !important;
+        padding: 40px !important;
+        /* padding: 20px; */
+    }
+    .addy-1{
+        width: 50% !important;
+    }
+
+    .ab-us{
+        display: none;
+    }
+    .abby-us{
+        display: flex;
+    }
+    .form{
+        width: 75%;
+        padding: 30px;
+
+    }
+    .form h1{
+        font-size: 20px;
+        font-weight: 700;
+    font-family: 'Just Another Hand', cursive;
+
+    }
+    .form-list{
+        text-decoration: none;
+        font-family: "poppins", Arial, Helvetica, sans-serif;
+    }
+    .form-list li{
+        padding-bottom: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        padding-top: 10px;
+        border-bottom: 1px solid black;
+    }
+    .form-list button{
+        margin-top: 17px;
+        padding: 1% 6%;
+        font-size: 14px;
+        outline-style: 2px solid black;
+    }
+    .formu{
+        display: none;
+    }
+
+}
