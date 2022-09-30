@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --gray: #838080;
+  --light-gray: #ccc7c7;
+  --light-blue: #33cccc;
+  --green: #4f9451;
+  --light-green: #b5ed98;
+  --dark-gray: #35312b;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Login Page Styling */
+body {
+  background-color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+/* Image Styling */
+.tree-image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom1,
+.bottom2 {
+  position: absolute;
+  color: var(--white);
+  bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.bottom1 {
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.bottom2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(226, 223, 223);
+}
+
+img {
+  width: 35vw;
+  height: 100vh;
+}
+/* End of Image Styling */
+
+/* Login Container Styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rem;
+  padding-top: 10rem;
+}
+
+.logo img {
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.top-header h1 {
+  color: var(--dark-gray);
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.top-header p {
+  color: var(--gray);
+  padding-bottom: 1rem;
+}
+
+label {
+  color: var(--dark-gray);
+}
+
+.password {
+  margin-top: 0.7rem;
+}
+
+input[type="text"] {
+  padding-top: 0.8rem;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  line-height: 2rem;
+  width: 100%;
+}
+
+.remember-me label {
+  margin-left: 0.5rem;
+  color: var(--dark-gray);
+}
+
+.remember-me {
+  padding-top: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.remember-me p {
+  display: flex;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+.remember-me a {
+  color: var(--dark-gray);
+}
+
+.remember-me a:hover {
+  color: var(--light-gray);
+}
+
+/* Button Styling */
+.btn {
+  background-color: var(--green);
+  color: var(--white);
+  width: 100%;
+  padding: 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--light-green);
+  color: var(--dark-gray);
+}
+
+.google {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  border: 1px solid var(--light-gray);
+  border-radius: 0.3rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.google img {
+  width: 40px;
+  height: 40px;
+  margin-left: 5rem;
+}
+
+span {
+  color: var(--dark-gray);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+/* End of The Button Styling */
+
+.register {
+  text-align: center;
+  justify-content: center;
+  color: var(--gray);
+}
+
+.register a {
+  color: var(--light-blue);
+  margin-left: 0.2rem;
+}
+
+.register a:hover {
+  color: var(--green);
+}
+/* End of Login Page Styling */
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  img {
+    width: 40vw;
+  }
+
+  .bottom1,
+  .bottom2 {
+    padding-left: 3rem;
+  }
+
+  .login-container {
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 40vw;
+    height: 100%;
+  }
+
+  .bottom1,
+  .bottom2 {
+    padding-left: 2rem;
+  }
+
+  .bottom2 {
+    font-size: 1rem;
+  }
+
+  .login-container {
+    padding-left: 5rem;
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img,
+  .bottom1,
+  .bottom2 {
+    display: none;
+  }
+
+  .login-container {
+    padding-top: 6rem;
+  }
+
+  .logo img {
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .remember-me,
+  .remember-me p {
+    font-size: small;
+  }
+
+  .google {
+    padding: 0.7rem;
+  }
+
+  .google img {
+    background-image: url(./images/google.svg);
+    width: 50px;
+    height: 50px;
+    margin-left: 5rem;
+  }
+
+  span {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .login-container {
+    padding-top: 2rem;
+  }
+
+  .top-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .top-header p {
+    font-size: 0.9rem;
+  }
+
+  .remember-me,
+  .remember-me p {
+    font-size: 0.7rem;
+  }
+
+  .remember-me p {
+    margin-left: 2.5rem;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .btn,
+  .google {
+    width: 90%;
+  }
+
+  .google span {
+    margin-left: 3rem;
+  }
+
+  .register {
+    font-size: 0.8rem;
+    margin-right: 2rem;
+  }
+}

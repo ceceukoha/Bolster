@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- Image -->
+        <div class="tree-image">
+          <img src="./images/trees.jpg" alt="trees" />
+          <h2 class="bottom1">Bolster</h2>
+          <p class="bottom2">Recyling waste across the globe</p>
+        </div>
+
+        <!-- Login -->
+        <div class="login-container">
+          <div class="logo">
+            <img src="./images/Secondary Logo.png" alt="Bolster logo" />
+          </div>
+
+          <div class="top-header">
+            <h1>Welcome back</h1>
+            <p>Welcome back Please enter your details.</p>
+          </div>
+
+          <form>
+            <div class="email">
+              <label for="Email">Email</label><br />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div class="password">
+              <label for="password">Password</label><br />
+              <input
+                type="text"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+            </div>
+
+            <div class="remember-me">
+              <input type="checkbox" name="remember-me" id="remember-me" />
+              <label for="remember-me">Remember me</label>
+              <p><a href="#">Forgot password</a></p>
+            </div>
+          </form>
+
+          <button class="btn">Login</button>
+
+          <button class="google">
+            <img src="./images/google.svg" alt="" width="20" />
+            <span>Login with Google</span>
+          </button>
+
+          <p class="register">
+            Don't have an account?<a href="register.html">Register</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

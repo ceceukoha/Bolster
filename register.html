@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Container -->
+      <div class="container">
+        <!-- Image Container -->
+        <div class="bottles-image">
+          <img src="./images/plastic-bottles.jpg" alt="plastic bottles" />
+          <h2 class="top">Bolster</h2>
+          <p class="info">Recyling waste from across the globe</p>
+          <p class="middle">Powered by Bolster</p>
+        </div>
+
+        <!-- Registration Container -->
+        <div class="reg-container">
+          <div class="logo">
+            <img src="./images/Secondary Logo.png" alt="Bolster logo" />
+          </div>
+
+          <div class="heading">
+            <h1>Create an account</h1>
+            <p>Let's get started with your recyling journey</p>
+          </div>
+
+          <!-- Form Container -->
+          <form action="registration">
+            <label for="name">Name</label> <br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <div class="email">
+              <label for="email">Email</label> <br />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="pwd">
+              <label for="password">Password</label><br />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="* * * * * * * * * *"
+                required
+              />
+            </div>
+
+            <div class="location">
+              <label for="location">Location</label> <br />
+              <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="Enter your location"
+                required
+              />
+            </div>
+
+            <div class="acc-type">
+              <p>Account Type</p>
+
+              <input type="radio" name="recycler" id="recycler" />
+              <label for="recyler">Recycler</label>
+
+              <input type="radio" name="consumer" id="consumer" />
+              <label for="consumer">Consumer</label>
+            </div>
+
+            <div class="terms">
+              <input
+                type="checkbox"
+                name="terms-of-service"
+                id="terms-of-service"
+                required
+              />
+              <label for="terms"
+                >I have read the Bolster
+                <span><a href="#">Terms of service</a></span>
+                and
+                <span><a href="#">Privacy policy</a></span></label
+              >
+            </div>
+          </form>
+
+          <!-- Button Container -->
+          <div class="create-account">
+            <button class="btn"><a href="#">Create account</a></button>
+            <p>Or</p>
+
+            <!-- Login with Google -->
+            <button class="option2">
+              <img src="./images/google.svg" alt="" width="20" />
+              <span>Sign up with Google</span>
+            </button>
+
+            <div class="login">
+              <p>Already have an account?<a href="login.html">Login</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

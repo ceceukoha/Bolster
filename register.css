@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Colors */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --gray: #838080;
+  --light-blue: #33cccc;
+  --green: #4f9451;
+  --light-green: #b5ed98;
+  --dark-gray: #35312b;
+}
+
+body {
+  background-color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+/* Registration Styling */
+
+/* Styling Image Container */
+.bottles-image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.top,
+.info {
+  position: absolute;
+  bottom: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.top {
+  color: var(--light-green);
+  padding-bottom: 4rem;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 1.2rem;
+  color: var(--gray);
+}
+
+.middle {
+  position: absolute;
+  bottom: 0.3rem;
+  text-align: center;
+  justify-content: center;
+  color: var(--gray);
+  font-size: small;
+  left: 12rem;
+  padding-bottom: 0.1rem;
+}
+
+img {
+  width: 35vw;
+  height: 100%;
+}
+/* End of Styling Image Container */
+
+/* Styling Resgistration Container */
+.reg-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  padding-top: 2rem;
+}
+
+.logo img {
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.heading h1 {
+  color: var(--dark-gray);
+  font-size: 2.3rem;
+  padding-bottom: 0.7rem;
+}
+
+.heading p {
+  color: var(--gray);
+  padding-bottom: 1rem;
+}
+
+label {
+  color: var(--dark-gray);
+}
+
+input[type="text"] {
+  padding-top: 0.8rem;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  line-height: 2rem;
+  width: 80%;
+}
+
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  line-height: 2rem;
+  width: 90%;
+}
+.email,
+.pwd,
+.location {
+  margin-top: 0.5rem;
+}
+
+.acc-type p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.recylcer label {
+  margin-right: 0.1rem;
+}
+
+.terms {
+  font-size: small;
+  color: var(--dark-gray);
+}
+
+.terms span {
+  color: var(--light-blue);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.create-account p {
+  text-align: center;
+  justify-content: center;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+
+.btn {
+  background-color: var(--green);
+  width: 100%;
+  padding: 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn a {
+  color: var(--white);
+}
+
+.btn:hover,
+.btn a:hover {
+  background-color: var(--light-green);
+  color: var(--dark-gray);
+}
+
+.option2 {
+  border-radius: 0.3rem;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  /* padding: 0.7rem; */
+  margin-bottom: 1.5rem;
+  background: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.option2 img {
+  width: 40px;
+  height: 40px;
+  margin-left: 7rem;
+}
+
+.option2 span {
+  color: var(--dark-gray);
+  font-weight: bold;
+}
+
+.login p {
+  color: var(--gray);
+}
+
+.login a {
+  color: var(--light-blue);
+  margin-left: 0.3rem;
+}
+
+.login a:hover {
+  color: var(--green);
+}
+/* End of the Registration Container */
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .info {
+    font-size: 1rem;
+  }
+
+  .middle {
+    left: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 40vw;
+  }
+  .top {
+    padding-left: 1.5rem;
+  }
+
+  .info {
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+  }
+
+  .middle {
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .reg-container {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  .reg-container {
+    padding-right: 1.8rem;
+  }
+
+  .logo img {
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .top,
+  .middle,
+  .info {
+    display: none;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .terms {
+    font-size: 0.7rem;
+  }
+
+  .option2 {
+    padding: 0.7rem;
+  }
+
+  .option2 img {
+    background-image: url(./images/google.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .option2 span {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .heading p {
+    font-size: 0.8rem;
+  }
+
+  .login p {
+    font-size: 0.8rem;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0.2rem;
+    margin-bottom: -0.2rem;
+  }
+
+  .btn {
+    margin-top: 0.5rem;
+  }
+
+  .option2 span {
+    margin-left: 3rem;
+  }
+}
