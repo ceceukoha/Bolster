@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 .scat{
+    display: none;
     /* height: 150vh; */
     width: 90%;
     /* display: flex; */
@@ -342,6 +343,7 @@ nav button{
 .works{
     background-image: url(images/Separate\ waste\ collection\ of\ paper\ plastic\ and\ organic\ waste.png);
     background-position: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     background-repeat: none;
     background-size: cover;
     padding: 0 100px 80px 100px;
@@ -830,7 +832,7 @@ font-family: 'Just Another Hand', cursive;
     }
     #four{
     position: absolute;
-    margin-top: 40%;
+    margin-top: 60%;
         margin-right: 30%;
         margin-left: 60%;
         margin-bottom: 70%;
@@ -840,7 +842,7 @@ font-family: 'Just Another Hand', cursive;
     }
     #fiv{
         position: absolute;
-        margin-top: 10%;
+        margin-top: 260%;
     margin-left: 70%;
     margin-bottom: 50%;
     width: 33px;
@@ -863,9 +865,15 @@ font-family: 'Just Another Hand', cursive;
     height: 40px;
 }
 #twe{
-    position: absolute;
+    /* position: absolute;
 
     margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px; */
+    position: absolute;
+    margin-top: 160vh;
+    margin-left: 70%;
     margin-bottom: 70%;
     width: 60px;
     height: 60px;
@@ -889,11 +897,16 @@ font-family: 'Just Another Hand', cursive;
 #fourt{
     position: absolute;
     margin-top: 150vh;
-    margin-left: 90%;
+    margin-left: 10%;
     margin-bottom: 70%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 
+}
+@media screen and (max-width: 460px){
+    .#six{
+        position: absolute;
+    }
 }
