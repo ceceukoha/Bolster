@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 .scat{
-    height: 150vh;
+    /* height: 150vh; */
+    width: 90%;
     /* display: flex; */
     /* flex-direction: column; */
     position: absolute;
@@ -25,20 +26,22 @@
 }
 #twoo{
     float: left;
-    margin-top: 40%;
+    margin-top: 80%;
     margin-left: auto;
     margin-right: auto;
     width: 60px;
     height: 60px;
 }
 #three{
+    margin-top: 90%;
     margin-left: 40%;
     margin-bottom: 70%;
     width: 60px;
     height: 60px;
 }
 #four{
-    margin-right: 40%;
+    margin-right: 30%;
+    margin-left: 90%;
     margin-bottom: 70%;
     width: 60px;
     height: 60px;
@@ -53,6 +56,36 @@
     margin-left: 40%;
     margin-bottom: 70%;
     width: 300px;
+    height: 60px;
+}
+#fiv{
+    margin-left: 40%;
+    margin-bottom: 50%;
+    width: 33px;
+    height: 60px;
+}
+#ten{
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px;
+}
+#ele{
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 300px;
+    height: 60px;
+}
+#twe{
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px;
+}
+#thi{
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
     height: 60px;
 }
 
@@ -153,11 +186,7 @@ nav button{
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
 }
-.text-home{
-    /* justify-content: space-between; */
-    /* margin-left: 40px; */
-    /* width: 100%; */
-}
+
 .socials{
     display: flex;
     float: right;
@@ -257,6 +286,7 @@ nav button{
 
     /* box-shadow: rgba(0,0,0,0.3) 0px 19px 38px rgba(0, 0, 0, 0.452) 0px 15px 12px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0,0,0,0.23) 0px 3px 6px;
+    background-color: white;
 
     text-align: left;
     /* padding-left: 20px; */
@@ -282,6 +312,7 @@ nav button{
     --animate-delay: 0.9s;
 }
 .card-1{
+    /* background-color: white; */
     display: flex;
     /* justify-content: center;
     padding: 20px; */
@@ -294,6 +325,7 @@ nav button{
 .card-2{
     display: flex;
     margin-left: auto;
+    /* background-color: white; */
     /* justify-content: flex-end; */
     width: 250px;
     height: 200px;
@@ -305,6 +337,7 @@ nav button{
     /* justify-content: flex-end; */
     width: 250px;
     height: 200px;
+    /* background-color: white; */
 }
 .works{
     background-image: url(images/Separate\ waste\ collection\ of\ paper\ plastic\ and\ organic\ waste.png);
@@ -458,7 +491,7 @@ font-family: 'Just Another Hand', cursive;
     outline-style: 2px solid black;
 }
 
-@media screen and (max-width: 807px){
+@media screen and (max-width: 767px){
     #logo{
         display: block;
         padding-left: 20px ;
@@ -762,62 +795,105 @@ font-family: 'Just Another Hand', cursive;
     .formu{
         display: none;
     }
-    .menu{
-        /* display: block; */
-        position: absolute;
-        cursor: pointer;
-    }
-    .menu-list li a{
-        text-decoration: none;
-        font-size: 20px;
-        color: #a1db7a;
-        font-family: "poppins", Arial, Helvetica, sans-serif;
-        font-weight: 100;
-    }
-    .menu-list li a:hover{
-        text-decoration: none;
-        font-size: 20px;
-        color: #33CCCC;
-        font-family: "poppins", Arial, Helvetica, sans-serif;
-        font-weight: 100;
-    }
-    .form{
-        display: block;
-        width: 70% !important;
-    }
-
-
-}
-@media screen and (max-width: 460px){
-    .elly img{
-        border: double;
-        /* width */
-    }
-    .sub{
-        height: 60vh;
-    }
-    .overlay2{
-        height: 60vh;
-
-        /* padding-bottom: 40px; */
-    }
-    .contact{
-        
-    }
-    .addy{
-        padding: 2rem !important;
-    }
-    .addy-1 .addy-2{
-        width: 50 !important%;
-    }
-    .addy h6{
+    .scat{
         width: 100%;
+        height: 150vh;
     }
-    .form{
-        display: block;
-        width: 85% !important;
+    #onee{
+        position: absolute;
+        /* bottom: 0; */
+        /* width: 100px;
+        height: 100px; */
+        margin-top: 40%;
+        width: 60px;
+        height: 60px;
+        float: right;
     }
+    #twoo{
+    position: absolute;
+
+        float: left;
+        margin-top: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #three{
+    position: absolute;
+
+        margin-top: 70%;
+        margin-left: 90%;
+        margin-bottom: 70%;
+        width: 30px;
+        height: 30px;
+    }
+    #four{
+    position: absolute;
+    margin-top: 40%;
+        margin-right: 30%;
+        margin-left: 60%;
+        margin-bottom: 70%;
+        width: 60px;
+        height: 60px;
+    
+    }
+    #fiv{
+        position: absolute;
+        margin-top: 10%;
+    margin-left: 70%;
+    margin-bottom: 50%;
+    width: 33px;
+    height: 60px;
+}
+#ten{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 85%;
+    /* margin-bottom: 70%; */
+    width: 30px;
+    height: 30px;
+}
+#ele{
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 85%;
+    margin-bottom: 70%;
+    width: 40px;
+    height: 40px;
+}
+#twe{
+    position: absolute;
+
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px;
+}
+#thi{
+    /* position: absolute;
+    margin-top: 49%;
+    margin-left: 40%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px; */
+    position: absolute;
+    margin-top: 40%;
+        /* margin-right: 30%; */
+        margin-top: 30%;
+        margin-left: 70%;
+        margin-bottom: 70%;
+        width: 70px;
+        height: 80px;
+}
+#fourt{
+    position: absolute;
+    margin-top: 150vh;
+    margin-left: 90%;
+    margin-bottom: 70%;
+    width: 60px;
+    height: 60px;
+}
+
 
 }
-    
-

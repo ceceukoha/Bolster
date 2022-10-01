@@ -289,7 +289,6 @@ span {
 
   input[type="text"] {
     width: 90%;
-    font-size: 90px;
   }
 
   .btn,
@@ -304,8 +303,5 @@ span {
   .register {
     font-size: 0.8rem;
     margin-right: 2rem;
-  }
-  .f-reg input{
-    font-size: 200px;
   }
 }
