@@ -909,4 +909,7 @@ font-family: 'Just Another Hand', cursive;
     .#six{
         position: absolute;
     }
+    .scat{
+      display: block;
+   }
 }
