@@ -5,7 +5,7 @@ Bolster is an online platform that connects consumers to the nearest plastic was
 
 Bolster is centered on influencing the behavior of individuals towards the reuse of plastic products, by facilitating the exchange of waste between consumers and recyclers.
 
-The solution is currently managed by href
+The solution is currently managed by [Chidinma Oduenyi](http://github.com/Chisequ), [Chioma Ukoha-Kalu](http://github.com/ceceukoha), [Paul Ehigie](https://github.com/Ehigiepaul01)
 
 Website: https://bolsterapp.netlify.app
 
